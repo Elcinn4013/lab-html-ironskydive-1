@@ -13,15 +13,18 @@ nav {
     height: 60px;
 
     ul {
-        color: #fff;
         display: flex;
         justify-content: space-around;
-        text-decoration: none;
         gap: 45px;
         list-style: none;
-        font-size: 18px;
-        font-weight: 500;
         width: 80%;
+
+        li a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+        }
     }
 }
 
@@ -54,7 +57,7 @@ header {
         text-transform: uppercase;
         margin: 0;
         margin-top: -24px;
-        margin-left: -150px;
+        margin-left: -50px;
         letter-spacing: -1px;
     }
 
@@ -92,7 +95,8 @@ header {
             line-height: 25px;
         }
 
-        button {
+        a {
+            display: inline-block;
             margin: 16px 0 16px 0;
             padding: 16px 40px;
             font-size: 16px;
@@ -300,4 +304,5 @@ footer {
             }
         }
     }
+
 }
